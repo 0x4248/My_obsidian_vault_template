@@ -1,0 +1,26 @@
+:root {
+    --background-mountain: #22252b;
+    --text-mountain-h1: #f2f5fa;
+    --text-mountain-h2: #b8c2d8;
+    --text-mountain-h3: #c2d2e1;
+}
+
+.page-mountain {
+    background-color: var(--background-mountain);
+    --hr-color: #737583;
+}
+
+.page-mountain-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-mountain-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-mountain-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-mountain-h2);
+    font-size: 32px;
+}
+
+.page-mountain-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-mountain-h3);
+}

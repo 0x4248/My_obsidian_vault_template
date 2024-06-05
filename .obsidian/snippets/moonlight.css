@@ -1,0 +1,26 @@
+:root {
+    --background-moonlight: #181e29;
+    --text-moonlight-h1: #bed1f4;
+    --text-moonlight-h2: #b9c0d0;
+    --text-moonlight-h3: #c2c2c2;
+}
+
+.page-moonlight {
+    background-color: var(--background-moonlight);
+    --hr-color: #737583;
+}
+
+.page-moonlight-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-moonlight-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-moonlight-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-moonlight-h2);
+    font-size: 32px;
+}
+
+.page-moonlight-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-moonlight-h3);
+}

@@ -1,0 +1,62 @@
+:root {
+  --h1: #afc7f5;
+  --text: #ffffff;
+  --primary: #aaaaaa;
+  --grey: #a7a7a7;
+  --background: #181e29;
+  --light-block: #bcbcbc98;
+}
+
+.daily {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.daily :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6
+) {
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--h1);
+  text-align: center;
+  font-size: 60px;
+  padding: 0 !important;
+}
+
+.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--grey);
+  text-align: center;
+  font-size: 30px;
+  padding: 0 !important;
+}
+
+.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  font-size: 32px;
+  padding-top: 0;
+}
+
+.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+  background-color: var(--light-block);
+  color: var(--text);
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0 6px;
+  margin: 0;
+  border-radius: 8px;
+  width: fit-content;
+  word-wrap: normal;
+}

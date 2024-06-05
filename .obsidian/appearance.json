@@ -1,0 +1,21 @@
+{
+  "accentColor": "",
+  "cssTheme": "Vanilla AMOLED",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "test",
+    "daily",
+    "page_colour",
+    "tweaks",
+    "blue",
+    "fonts",
+    "blue-darker",
+    "mountain",
+    "moonlight",
+    "dusk",
+    "sand",
+    "slate",
+    "granite"
+  ]
+}

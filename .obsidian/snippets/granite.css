@@ -1,0 +1,27 @@
+:root {
+    --background-granite: #18191c;
+    --text-granite-h1: #d7e5ff;
+    --text-granite-h2: #d6e0f3;
+    --text-granite-h3: #9aa9c5f1;
+}
+
+.page-granite {
+    background-color: var(--background-granite);
+    --hr-color: #8594ae;
+    color: #dbdbdb;
+}
+
+.page-granite-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-granite-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-granite-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-granite-h2);
+    font-size: 32px;
+}
+
+.page-granite-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-granite-h3);
+}

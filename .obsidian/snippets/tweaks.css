@@ -1,0 +1,87 @@
+body {
+    --tag-color: #eaeaeae2;
+    --tag-background: #5b5b5b9c;
+    --code-background: #1b1b1bbb;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.callout {
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.space-images img {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.rounded-images img {
+    border-radius: 10px;
+}
+
+.center-images img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.no-embed-border {
+    --embed-border-left: 0px solid black !important;
+}
+
+.neo-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--primary);
+    text-align: center;
+    font-size: 40px;
+}
+
+.neo-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--primary);
+    font-size: 32px;
+}
+
+.neo-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+
+    font-size: 25px;
+}
+
+.neo-headings :is(h4, .HyperMD-header.HyperMD-header-4) {
+    font-size: 20px;
+}
+
+.neo-headings :is(h5, .HyperMD-header.HyperMD-header-5) {
+    font-size: 18px;
+}
+
+.neo-headings :is(h6, .HyperMD-header.HyperMD-header-6) {
+    font-size: 16px;
+}
+
+.center-headings:is(h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .HyperMD-header.HyperMD-header-1,
+    .HyperMD-header.HyperMD-header-2,
+    .HyperMD-header.HyperMD-header-3,
+    .HyperMD-header.HyperMD-header-4,
+    .HyperMD-header.HyperMD-header-5,
+    .HyperMD-header.HyperMD-header-6) {
+    text-align: center;
+}
+
+
+.center-headings:is(h1,
+    h2,
+    h3,
+    .HyperMD-header.HyperMD-header-1,
+    .HyperMD-header.HyperMD-header-2,
+    .HyperMD-header.HyperMD-header-3) {
+    text-align: center;
+}

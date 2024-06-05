@@ -1,0 +1,27 @@
+:root {
+    --background-slate: #262626;
+    --text-slate-h1: #dadada;
+    --text-slate-h2: #c3c3c3;
+    --text-slate-h3: #bababa;
+}
+
+.page-slate {
+    background-color: var(--background-slate);
+    --hr-color: #aeaeae;
+    color: #afafaf;
+}
+
+.page-slate-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-slate-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-slate-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-slate-h2);
+    font-size: 32px;
+}
+
+.page-slate-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-slate-h3);
+}

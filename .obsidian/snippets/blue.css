@@ -1,0 +1,26 @@
+:root {
+    --background-blue: #181f30;
+    --text-blue-h1: #b9d0ff;
+    --text-blue-h2: #c5d8ff;
+    --text-blue-h3: #b2bedc;
+}
+
+.page-blue {
+    background-color: var(--background-blue);
+    --hr-color: #737a95;
+}
+
+.page-blue-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-blue-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-blue-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-blue-h2);
+    font-size: 32px;
+}
+
+.page-blue-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-blue-h3);
+}

@@ -1,0 +1,27 @@
+:root {
+    --background-dusk: #2d261f;
+    --text-dusk-h1: #fff9ee;
+    --text-dusk-h2: #e7dfca;
+    --text-dusk-h3: #e4dbc8;
+}
+
+.page-dusk {
+    background-color: var(--background-dusk);
+    --hr-color: #e2d0b2;
+    color: #e7d8c0;
+}
+
+.page-dusk-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-dusk-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-dusk-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-dusk-h2);
+    font-size: 32px;
+}
+
+.page-dusk-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-dusk-h3);
+}

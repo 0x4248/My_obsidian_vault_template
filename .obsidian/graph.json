@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"00 Maps\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5767094
+      }
+    },
+    {
+      "query": "path:\"01 Areas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65518
+      }
+    },
+    {
+      "query": "path:\"02 Daily\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 40447
+      }
+    },
+    {
+      "query": "path:\"03 Fleeting\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13311
+      }
+    },
+    {
+      "query": "path:\"04 Archive\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7536895
+      }
+    },
+    {
+      "query": "path:\"05 Projects\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15597823
+      }
+    },
+    {
+      "query": "path:\"06 Meta\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16735324
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.1067212405581668,
+  "close": true
+}

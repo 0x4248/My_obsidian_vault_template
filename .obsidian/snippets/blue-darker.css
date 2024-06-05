@@ -1,0 +1,26 @@
+:root {
+    --background-blue-darker: #11161f;
+    --text-blue-darker-h1: #d7ddea;
+    --text-blue-darker-h2: #b3c1dc;
+    --text-blue-darker-h3: #afb9d3;
+}
+
+.page-blue-darker {
+    background-color: var(--background-blue-darker);
+    --hr-color: #737a95;
+}
+
+.page-blue-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-blue-darker-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-blue-darker-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-blue-darker-h2);
+    font-size: 32px;
+}
+
+.page-blue-darker-headings :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--text-blue-darker-h3);
+}
