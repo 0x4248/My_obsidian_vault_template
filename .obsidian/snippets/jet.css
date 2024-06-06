@@ -1,0 +1,38 @@
+:root {
+    --background-jet: #161616;
+    --text-jet-h1: #c5c5c5;
+    --text-jet-h2: #c8c8c8;
+    --text-jet-h3: #a0a0a0;
+}
+
+.page-jet {
+    background-color: var(--background-jet);
+    color: #c4c4c4;
+    --hr-color: #747474;
+    --link-unresolved-color: #c8c8c8;
+    --link-external-color-hover: #e3e3e3;
+    --link-color: #c8c8c8;
+    --link-color-hover: #e3e3e3;
+    --link-unresolved-decoration-color: #c8c8c8;
+    --table-border-color: #747474;
+    --table-header-border-color: #747474;
+    --table-header-color: #e3e3e3;
+    --code-background: #2b2b2b;
+    --blockquote-border-color: #747474;
+    --checkbox-color: #e3e3e3;
+}
+
+.page-jet-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-jet-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-jet-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-jet-h2);
+    font-size: 32px;
+}
+
+.page-jet-headings :is(h3, .HyperMD-header.HyperMD-header-3, h4, .HyperMD-header.HyperMD-header-4, h5, .HyperMD-header.HyperMD-header-5, h6, .HyperMD-header.HyperMD-header-6) {
+    color: var(--text-jet-h3);
+}

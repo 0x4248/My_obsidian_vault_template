@@ -39,6 +39,22 @@
   --font-text: "Audiowide", sans-serif;
 }
 
+.lato-font {
+  --font-text: "Lato", sans-serif;
+}
+
+.lexend-font {
+  --font-text: "Lexend", sans-serif;
+}
+
+.roboto-font {
+  --font-text: "Roboto", sans-serif;
+}
+
+.roboto-mono-font {
+  --font-text: "Roboto Mono", monospace;
+}
+
 .gohu-headings :is(h1,
   h2,
   h3,
@@ -172,4 +188,64 @@
   .HyperMD-header.HyperMD-header-5,
   .HyperMD-header.HyperMD-header-6) {
   font-family: "Audiowide", sans-serif;
+}
+
+.lato-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Lato", sans-serif;
+}
+
+.lexend-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Lexend", sans-serif;
+}
+
+.roboto-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-mono-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Roboto Mono", monospace;
 }

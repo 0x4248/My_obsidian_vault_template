@@ -19,6 +19,7 @@
     --table-header-color: #d6e0f3;
     --code-background: #131417;
     --blockquote-border-color: #8594ae;
+    --checkbox-color: #d6e0f3;
 }
 
 .page-granite-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

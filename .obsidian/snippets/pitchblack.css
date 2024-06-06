@@ -1,0 +1,37 @@
+:root {
+    --background-pitchblack: #000000;
+    --text-pitchblack-h1: #e3e3e3;
+    --text-pitchblack-h2: #c8c8c8;
+    --text-pitchblack-h3: #9e9e9e;
+}
+
+.page-pitchblack {
+    background-color: var(--background-pitchblack);
+    --hr-color: #696969;
+    --link-unresolved-color: #b9c2e0;
+    --link-external-color-hover: #b9c2e0;
+    --link-color: #b9c2e0;
+    --link-color-hover: #b9c2e0;
+    --link-unresolved-decoration-color: #b9c2e0;
+    --table-border-color: #696969;
+    --table-header-border-color: #696969;
+    --table-header-color: #b9c2e0;
+    --code-background: #151515;
+    --blockquote-border-color: #696969;
+    --checkbox-color: #b9c2e0;
+}
+
+.page-pitchblack-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-pitchblack-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-pitchblack-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-pitchblack-h2);
+    font-size: 32px;
+}
+
+.page-pitchblack-headings :is(h3, .HyperMD-header.HyperMD-header-3, h4, .HyperMD-header.HyperMD-header-4, h5, .HyperMD-header.HyperMD-header-5, h6, .HyperMD-header.HyperMD-header-6) {
+    color: var(--text-pitchblack-h3);
+}

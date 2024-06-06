@@ -1,0 +1,38 @@
+:root {
+    --background-basalt: #2f2f2f;
+    --text-basalt-h1: #e3e3e3;
+    --text-basalt-h2: #c8c8c8;
+    --text-basalt-h3: #a0a0a0;
+}
+
+.page-basalt {
+    background-color: var(--background-basalt);
+    color: #d5d5d5;
+    --hr-color: #747474;
+    --link-unresolved-color: #c8c8c8;
+    --link-external-color-hover: #e3e3e3;
+    --link-color: #c8c8c8;
+    --link-color-hover: #e3e3e3;
+    --link-unresolved-decoration-color: #c8c8c8;
+    --table-border-color: #747474;
+    --table-header-border-color: #747474;
+    --table-header-color: #e3e3e3;
+    --code-background: #1f1f1f;
+    --blockquote-border-color: #747474;
+    --checkbox-color: #e3e3e3;
+}
+
+.page-basalt-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--text-basalt-h1);
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-basalt-headings :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--text-basalt-h2);
+    font-size: 32px;
+}
+
+.page-basalt-headings :is(h3, .HyperMD-header.HyperMD-header-3, h4, .HyperMD-header.HyperMD-header-4, h5, .HyperMD-header.HyperMD-header-5, h6, .HyperMD-header.HyperMD-header-6) {
+    color: var(--text-basalt-h3);
+}

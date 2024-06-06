@@ -19,6 +19,7 @@
     --table-header-color: #f2e5c5;
     --code-background: #2c2621;
     --blockquote-border-color: #ccb58d;
+    --checkbox-color: #f2e5c5;
 }
 
 .page-sand-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
