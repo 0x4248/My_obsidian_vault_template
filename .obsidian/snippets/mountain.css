@@ -8,6 +8,16 @@
 .page-mountain {
     background-color: var(--background-mountain);
     --hr-color: #737583;
+    --link-unresolved-color: #b8c2d8;
+    --link-external-color-hover: #f2f5fa;
+    --link-color: #b8c2d8;
+    --link-color-hover: #f2f5fa;
+    --link-unresolved-decoration-color: #b8c2d8;
+    --table-border-color: #737583;
+    --table-header-border-color: #737583;
+    --table-header-color: #f2f5fa;
+    --code-background: #1d2025;
+    --blockquote-border-color: #737583;
 }
 
 .page-mountain-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

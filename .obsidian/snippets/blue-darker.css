@@ -8,6 +8,16 @@
 .page-blue-darker {
     background-color: var(--background-blue-darker);
     --hr-color: #737a95;
+    --link-unresolved-color: #b3c1dc;
+    --link-external-color-hover: #d7ddea;
+    --link-color: #b9d0ff;
+    --link-color-hover: #d7ddea;
+    --link-unresolved-decoration-color: #b9d0ff;
+    --table-border-color: #737a95;
+    --table-header-border-color: #737a95;
+    --table-header-color: #b9d0ff;
+    --code-background: #191f2b;
+    --blockquote-border-color: #737a95;
 }
 
 .page-blue-darker-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

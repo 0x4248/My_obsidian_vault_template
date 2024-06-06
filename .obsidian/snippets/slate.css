@@ -8,7 +8,17 @@
 .page-slate {
     background-color: var(--background-slate);
     --hr-color: #aeaeae;
-    color: #afafaf;
+    color: #cdcdcd;
+    --link-unresolved-color: #c3c3c3;
+    --link-external-color-hover: #c3c3c3;
+    --link-color: #c6c6c6;
+    --link-color-hover: #c3c3c3;
+    --link-unresolved-decoration-color: #c3c3c3;
+    --table-border-color: #c6c6c6;
+    --table-header-border-color: #c6c6c6;
+    --table-header-color: #d7d7d7;
+    --code-background: #1f1f1f;
+    --blockquote-border-color: #b4b4b4;
 }
 
 .page-slate-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

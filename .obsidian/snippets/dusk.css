@@ -9,6 +9,16 @@
     background-color: var(--background-dusk);
     --hr-color: #e2d0b2;
     color: #e7d8c0;
+    --link-unresolved-color: #decba5;
+    --link-external-color-hover: #e0c38d;
+    --link-color:  #e0c38d;
+    --link-color-hover: #e0c38d;
+    --link-unresolved-decoration-color: #d9c9a9;
+    --table-border-color: #e2d0b2;
+    --table-header-border-color: #e2d0b2;
+    --table-header-color: #ebd1a0;
+    --code-background: #3b3228;
+    --blockquote-border-color: #e2d0b2;
 }
 
 .page-dusk-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

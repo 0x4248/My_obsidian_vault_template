@@ -9,6 +9,16 @@
     background-color: var(--background-granite);
     --hr-color: #8594ae;
     color: #dbdbdb;
+    --link-unresolved-color: #d6e0f3;
+    --link-external-color-hover: #d6e0f3;
+    --link-color: #d6e0f3;
+    --link-color-hover: #d6e0f3;
+    --link-unresolved-decoration-color: #d6e0f3; 
+    --table-border-color: #8594ae;
+    --table-header-border-color: #8594ae;
+    --table-header-color: #d6e0f3;
+    --code-background: #131417;
+    --blockquote-border-color: #8594ae;
 }
 
 .page-granite-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

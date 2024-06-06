@@ -1,3 +1,7 @@
+/*   --tag-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+   */
+
 body {
     --tag-color: #eaeaeae2;
     --tag-background: #5b5b5b9c;

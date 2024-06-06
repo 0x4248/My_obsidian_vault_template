@@ -9,6 +9,16 @@
     background-color: var(--background-sand);
     --hr-color: #ccb58d;
     color: #e3d8c5;
+    --link-unresolved-color: #f2e5c5;
+    --link-external-color-hover: #f2e5c5;
+    --link-color: #f2e5c5;
+    --link-color-hover: #f2e5c5;
+    --link-unresolved-decoration-color: #f2e5c5;
+    --table-border-color: #ccb58d;
+    --table-header-border-color: #ccb58d;
+    --table-header-color: #f2e5c5;
+    --code-background: #2c2621;
+    --blockquote-border-color: #ccb58d;
 }
 
 .page-sand-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

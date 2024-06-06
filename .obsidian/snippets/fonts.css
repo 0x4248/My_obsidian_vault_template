@@ -4,23 +4,69 @@
 }
 
 .gohu-font {
-  --font-text: "GohuFont uni11 Nerd Font Mono", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  --font-text: "GohuFont uni11 Nerd Font Mono", monospace;
 }
 
 .ms-dos-font {
-  --font-text: "Perfect DOS VGA 437", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  --font-text: "Perfect DOS VGA 437", monospace;
 }
 
 .bai-font {
-  --font-text: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  --font-text: "Bai Jamjuree", Arial, sans-serif;
 }
 
 .kode-font {
-  --font-text: "Kode Mono", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  --font-text: "Kode Mono", monospace;
 }
 
 .sriracha-font {
-  --font-text: "Sriracha", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  --font-text: "Sriracha", Arial, sans-serif;
+}
+
+.tiny5-font {
+  --font-text: "Tiny5", monospace;
+}
+
+.sanchez-font {
+  --font-text: "Sanchez", serif;
+}
+
+.orbitron-font {
+  --font-text: "Orbitron", sans-serif;
+}
+
+.audiowide-font {
+  --font-text: "Audiowide", sans-serif;
+}
+
+.gohu-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "GohuFont uni11 Nerd Font Mono", monospace;
+}
+
+.ms-dos-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Perfect DOS VGA 437", monospace;
 }
 
 .bai-headings :is(h1,
@@ -35,7 +81,7 @@
   .HyperMD-header.HyperMD-header-4,
   .HyperMD-header.HyperMD-header-5,
   .HyperMD-header.HyperMD-header-6) {
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif
 }
 
 .kode-headings :is(h1,
@@ -50,7 +96,7 @@
   .HyperMD-header.HyperMD-header-4,
   .HyperMD-header.HyperMD-header-5,
   .HyperMD-header.HyperMD-header-6) {
-  font-family: "Kode Mono", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Kode Mono", monospace;
 }
 
 .sriracha-headings :is(h1,
@@ -65,5 +111,65 @@
   .HyperMD-header.HyperMD-header-4,
   .HyperMD-header.HyperMD-header-5,
   .HyperMD-header.HyperMD-header-6) {
-  font-family: "Sriracha", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Sriracha", Arial, sans-serif;
+}
+
+.tiny5-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Tiny5", monospace;
+}
+
+.sanchez-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Sanchez", serif;
+}
+
+.orbitron-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Orbitron", sans-serif;
+}
+
+.audiowide-headings :is(h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .HyperMD-header.HyperMD-header-1,
+  .HyperMD-header.HyperMD-header-2,
+  .HyperMD-header.HyperMD-header-3,
+  .HyperMD-header.HyperMD-header-4,
+  .HyperMD-header.HyperMD-header-5,
+  .HyperMD-header.HyperMD-header-6) {
+  font-family: "Audiowide", sans-serif;
 }

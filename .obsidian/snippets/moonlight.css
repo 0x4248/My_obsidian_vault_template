@@ -8,6 +8,16 @@
 .page-moonlight {
     background-color: var(--background-moonlight);
     --hr-color: #737583;
+    --link-unresolved-color: #b9c0d0;
+    --link-external-color-hover: #bed1f4;
+    --link-color: #b9c0d0;
+    --link-color-hover: #bed1f4;
+    --link-unresolved-decoration-color: #b9c0d0;
+    --table-border-color: #737583;
+    --table-header-border-color: #737583;
+    --table-header-color: #bed1f4;
+    --code-background: #11151d;
+    --blockquote-border-color: #737583;
 }
 
 .page-moonlight-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

@@ -10,6 +10,16 @@
 .daily {
   background-color: var(--background);
   color: var(--text);
+  --link-unresolved-color: #b9d0ff;
+  --link-external-color-hover: #b9d0ff;
+  --link-color: #b9d0ff;
+  --link-color-hover: #d0e0ff;
+  --link-unresolved-decoration-color: #b9d0ff;
+  --table-border-color: #737a95;
+  --table-header-border-color: #737a95;
+  --table-header-color: #b9d0ff;
+  --code-background: #11151d;
+  --blockquote-border-color: #737a95;
 }
 
 .daily :is(
