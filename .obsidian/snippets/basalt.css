@@ -3,23 +3,35 @@
     --text-basalt-h1: #e3e3e3;
     --text-basalt-h2: #c8c8c8;
     --text-basalt-h3: #a0a0a0;
+    --text-basalt: #d5d5d5;
+    --hr-basalt: #747474;
+    --link-basalt: #c8c8c8;
+    --link-basalt-hover: #e3e3e3;
+    --link-unresolved-basalt: #c8c8c8;
+    --link-unresolved-decoration-basalt: #c8c8c8;
+    --table-border-basalt: #747474;
+    --table-header-basalt: #e3e3e3;
+    --code-background-basalt: #1f1f1f;
+    --blockquote-border-basalt: #747474;
+    --checkbox-basalt: #e3e3e3;
 }
 
 .page-basalt {
     background-color: var(--background-basalt);
-    color: #d5d5d5;
-    --hr-color: #747474;
-    --link-unresolved-color: #c8c8c8;
-    --link-external-color-hover: #e3e3e3;
-    --link-color: #c8c8c8;
-    --link-color-hover: #e3e3e3;
-    --link-unresolved-decoration-color: #c8c8c8;
-    --table-border-color: #747474;
-    --table-header-border-color: #747474;
-    --table-header-color: #e3e3e3;
-    --code-background: #1f1f1f;
-    --blockquote-border-color: #747474;
-    --checkbox-color: #e3e3e3;
+    color: var(--text-basalt);
+    --hr-color: var(--hr-basalt);
+    --link-unresolved-color: var(--link-unresolved-basalt);
+    --link-external-color: var(--link-basalt);
+    --link-external-color-hover: var(--link-basalt-hover);
+    --link-color: var(--link-basalt);
+    --link-color-hover: var(--link-basalt-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-basalt);
+    --table-border-color: var(--table-border-basalt);
+    --table-header-border-color: var(--table-header-basalt);
+    --table-header-color: var(--table-header-basalt);
+    --code-background: var(--code-background-basalt);
+    --blockquote-border-color: var(--blockquote-border-basalt);
+    --checkbox-color: var(--checkbox-basalt);
 }
 
 .page-basalt-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

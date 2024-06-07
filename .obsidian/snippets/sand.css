@@ -3,23 +3,35 @@
     --text-sand-h1: #ece1cc;
     --text-sand-h2: #f2e5c5;
     --text-sand-h3: #e4d5b2;
+    --text-sand: #e3d8c5;
+    --hr-sand: #ccb58d;
+    --link-sand: #f2e5c5;
+    --link-sand-hover: #f2e5c5;
+    --link-unresolved-sand: #f2e5c5;
+    --link-unresolved-decoration-sand: #f2e5c5;
+    --table-border-sand: #ccb58d;
+    --table-header-sand: #f2e5c5;
+    --code-background-sand: #2c2621;
+    --blockquote-border-sand: #ccb58d;
+    --checkbox-sand: #f2e5c5;
 }
 
 .page-sand {
     background-color: var(--background-sand);
-    --hr-color: #ccb58d;
-    color: #e3d8c5;
-    --link-unresolved-color: #f2e5c5;
-    --link-external-color-hover: #f2e5c5;
-    --link-color: #f2e5c5;
-    --link-color-hover: #f2e5c5;
-    --link-unresolved-decoration-color: #f2e5c5;
-    --table-border-color: #ccb58d;
-    --table-header-border-color: #ccb58d;
-    --table-header-color: #f2e5c5;
-    --code-background: #2c2621;
-    --blockquote-border-color: #ccb58d;
-    --checkbox-color: #f2e5c5;
+    color: var(--text-sand);
+    --hr-color: var(--hr-sand);
+    --link-unresolved-color: var(--link-unresolved-sand);
+    --link-external-color: var(--link-sand);
+    --link-external-color-hover: var(--link-sand-hover);
+    --link-color: var(--link-sand);
+    --link-color-hover: var(--link-sand-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-sand);
+    --table-border-color: var(--table-border-sand);
+    --table-header-border-color: var(--table-header-sand);
+    --table-header-color: var(--table-header-sand);
+    --code-background: var(--code-background-sand);
+    --blockquote-border-color: var(--blockquote-border-sand);
+    --checkbox-color: var(--checkbox-sand);
 }
 
 .page-sand-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

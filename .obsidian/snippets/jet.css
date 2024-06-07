@@ -3,23 +3,35 @@
     --text-jet-h1: #c5c5c5;
     --text-jet-h2: #c8c8c8;
     --text-jet-h3: #a0a0a0;
+    --text-jet: #d5d5d5;
+    --hr-jet: #747474;
+    --link-jet: #c8c8c8;
+    --link-jet-hover: #e3e3e3;
+    --link-unresolved-jet: #c8c8c8;
+    --link-unresolved-decoration-jet: #c8c8c8;
+    --table-border-jet: #747474;
+    --table-header-jet: #e3e3e3;
+    --code-background-jet: #1f1f1f;
+    --blockquote-border-jet: #747474;
+    --checkbox-jet: #e3e3e3;
 }
 
 .page-jet {
     background-color: var(--background-jet);
-    color: #c4c4c4;
-    --hr-color: #747474;
-    --link-unresolved-color: #c8c8c8;
-    --link-external-color-hover: #e3e3e3;
-    --link-color: #c8c8c8;
-    --link-color-hover: #e3e3e3;
-    --link-unresolved-decoration-color: #c8c8c8;
-    --table-border-color: #747474;
-    --table-header-border-color: #747474;
-    --table-header-color: #e3e3e3;
-    --code-background: #2b2b2b;
-    --blockquote-border-color: #747474;
-    --checkbox-color: #e3e3e3;
+    color: var(--text-jet);
+    --hr-color: var(--hr-jet);
+    --link-unresolved-color: var(--link-unresolved-jet);
+    --link-external-color: var(--link-jet);
+    --link-external-color-hover: var(--link-jet-hover);
+    --link-color: var(--link-jet);
+    --link-color-hover: var(--link-jet-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-jet);
+    --table-border-color: var(--table-border-jet);
+    --table-header-border-color: var(--table-header-jet);
+    --table-header-color: var(--table-header-jet);
+    --code-background: var(--code-background-jet);
+    --blockquote-border-color: var(--blockquote-border-jet);
+    --checkbox-color: var(--checkbox-jet);
 }
 
 .page-jet-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

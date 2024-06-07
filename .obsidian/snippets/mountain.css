@@ -3,22 +3,35 @@
     --text-mountain-h1: #f2f5fa;
     --text-mountain-h2: #b8c2d8;
     --text-mountain-h3: #c2d2e1;
+    --text-mountain: #f2f5fa;
+    --hr-mountain: #737583;
+    --link-mountain: #b8c2d8;
+    --link-mountain-hover: #f2f5fa;
+    --link-unresolved-mountain: #b8c2d8;
+    --link-unresolved-decoration-mountain: #b8c2d8;
+    --table-border-mountain: #737583;
+    --table-header-mountain: #f2f5fa;
+    --code-background-mountain: #1d2025;
+    --blockquote-border-mountain: #737583;
+    --checkbox-mountain: #f2f5fa;
 }
 
 .page-mountain {
     background-color: var(--background-mountain);
-    --hr-color: #737583;
-    --link-unresolved-color: #b8c2d8;
-    --link-external-color-hover: #f2f5fa;
-    --link-color: #b8c2d8;
-    --link-color-hover: #f2f5fa;
-    --link-unresolved-decoration-color: #b8c2d8;
-    --table-border-color: #737583;
-    --table-header-border-color: #737583;
-    --table-header-color: #f2f5fa;
-    --code-background: #1d2025;
-    --blockquote-border-color: #737583;
-    --checkbox-color: #f2f5fa;
+    color: var(--text-mountain);
+    --hr-color: var(--hr-mountain);
+    --link-unresolved-color: var(--link-unresolved-mountain);
+    --link-external-color: var(--link-mountain);
+    --link-external-color-hover: var(--link-mountain-hover);
+    --link-color: var(--link-mountain);
+    --link-color-hover: var(--link-mountain-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-mountain);
+    --table-border-color: var(--table-border-mountain);
+    --table-header-border-color: var(--table-header-mountain);
+    --table-header-color: var(--table-header-mountain);
+    --code-background: var(--code-background-mountain);
+    --blockquote-border-color: var(--blockquote-border-mountain);
+    --checkbox-color: var(--checkbox-mountain);
 }
 
 .page-mountain-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

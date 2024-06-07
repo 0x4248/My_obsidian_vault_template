@@ -3,23 +3,35 @@
     --text-slate-h1: #dadada;
     --text-slate-h2: #c3c3c3;
     --text-slate-h3: #bababa;
+    --text-slate: #cdcdcd;
+    --hr-slate: #aeaeae;
+    --link-slate: #c3c3c3;
+    --link-slate-hover: #c3c3c3;
+    --link-unresolved-slate: #c3c3c3;
+    --link-unresolved-decoration-slate: #c3c3c3;
+    --table-border-slate: #c6c6c6;
+    --table-header-slate: #d7d7d7;
+    --code-background-slate: #1f1f1f;
+    --blockquote-border-slate: #b4b4b4;
+    --checkbox-slate: #c3c3c3;
 }
 
 .page-slate {
     background-color: var(--background-slate);
-    --hr-color: #aeaeae;
-    color: #cdcdcd;
-    --link-unresolved-color: #c3c3c3;
-    --link-external-color-hover: #c3c3c3;
-    --link-color: #c6c6c6;
-    --link-color-hover: #c3c3c3;
-    --link-unresolved-decoration-color: #c3c3c3;
-    --table-border-color: #c6c6c6;
-    --table-header-border-color: #c6c6c6;
-    --table-header-color: #d7d7d7;
-    --code-background: #1f1f1f;
-    --blockquote-border-color: #b4b4b4;
-    --checkbox-color: #c3c3c3;
+    color: var(--text-slate);
+    --hr-color: var(--hr-slate);
+    --link-unresolved-color: var(--link-unresolved-slate);
+    --link-external-color: var(--link-slate);
+    --link-external-color-hover: var(--link-slate-hover);
+    --link-color: var(--link-slate);
+    --link-color-hover: var(--link-slate-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-slate);
+    --table-border-color: var(--table-border-slate);
+    --table-header-border-color: var(--table-header-slate);
+    --table-header-color: var(--table-header-slate);
+    --code-background: var(--code-background-slate);
+    --blockquote-border-color: var(--blockquote-border-slate);
+    --checkbox-color: var(--checkbox-slate);
 }
 
 .page-slate-headings :is(h1, .HyperMD-header.HyperMD-header-1) {

@@ -11,6 +11,7 @@
   background-color: var(--background);
   color: var(--text);
   --link-unresolved-color: #b9d0ff;
+  --link-external-color: #b9d0ff;
   --link-external-color-hover: #b9d0ff;
   --link-color: #b9d0ff;
   --link-color-hover: #d0e0ff;

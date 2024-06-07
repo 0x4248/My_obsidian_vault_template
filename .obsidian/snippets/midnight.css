@@ -3,22 +3,35 @@
     --text-midnight-h1: #dadfff;
     --text-midnight-h2: #bbc0e2;
     --text-midnight-h3: #b3b8d9;
+    --text-midnight: #d6d8e8;
+    --hr-midnight: #8c8d92;
+    --link-midnight: #bbc0e2;
+    --link-midnight-hover: #bbc0e2;
+    --link-unresolved-midnight: #bbc0e2;
+    --link-unresolved-decoration-midnight: #bbc0e2;
+    --table-border-midnight: #8c8d92;
+    --table-header-midnight: #bbc0e2;
+    --code-background-midnight: #090c1b;
+    --blockquote-border-midnight: #8c8d92;
+    --checkbox-midnight: #bbc0e2;
 }
 
 .page-midnight {
     background-color: var(--background-midnight);
-    --hr-color: #8c8d92;
-    --link-unresolved-color: #bbc0e2;
-    --link-external-color-hover: #bbc0e2;
-    --link-color: #bbc0e2;
-    --link-color-hover: #bbc0e2;
-    --link-unresolved-decoration-color: #bbc0e2;
-    --table-border-color: #8c8d92;
-    --table-header-border-color: #8c8d92;
-    --table-header-color: #bbc0e2;
-    --code-background: #090c1b;
-    --blockquote-border-color:  #8c8d92;
-    --checkbox-color: #bbc0e2;
+    color: var(--text-midnight);
+    --hr-color: var(--hr-midnight);
+    --link-unresolved-color: var(--link-unresolved-midnight);
+    --link-external-color: var(--link-midnight);
+    --link-external-color-hover: var(--link-midnight-hover);
+    --link-color: var(--link-midnight);
+    --link-color-hover: var(--link-midnight-hover);
+    --link-unresolved-decoration-color: var(--link-unresolved-decoration-midnight);
+    --table-border-color: var(--table-border-midnight);
+    --table-header-border-color: var(--table-header-midnight);
+    --table-header-color: var(--table-header-midnight);
+    --code-background: var(--code-background-midnight);
+    --blockquote-border-color: var(--blockquote-border-midnight);
+    --checkbox-color: var(--checkbox-midnight);
 }
 
 .page-midnight-headings :is(h1, .HyperMD-header.HyperMD-header-1) {
